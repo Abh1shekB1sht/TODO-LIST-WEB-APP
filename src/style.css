@@ -1,0 +1,79 @@
+:root {
+  --highlight-red: #ff6767;
+  --highlight-blue: #3abeff;
+  --header-background: #f8f8f8;
+  --search-text-color: #a1a3ab;
+  --serach-background: #f5f8ff;
+  --header-icon: #ff6767;
+  --white-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.head {
+  display: flex;
+  padding: 0.5rem;
+  background-color: var(--header-background);
+}
+
+.highlight-red {
+  color: var(--highlight-red);
+}
+
+.heading {
+  padding: 1rem;
+  width: 400px;
+  margin: 0;
+  text-align: center;
+}
+
+.search-area {
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  width: 900px;
+  align-items: start;
+}
+
+.input-search {
+  width: 95%;
+  border: none;
+  color: var(--search-text-color);
+  background-color: var(--serach-background);
+  padding: 0.2rem;
+  box-shadow: 0 2px 0 2px;
+}
+
+.search-icon {
+  width: 5%;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  background-color: var(--highlight-red);
+  color: var(--white-color);
+}
+
+.not-cal {
+  margin: auto;
+  width: 100px;
+  color: var(--white-color);
+}
+
+.not-icon {
+  background-color: var(--highlight-red);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.cal-icon {
+  background-color: var(--highlight-red);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.head-para {
+  margin: auto;
+  width: 200px;
+}
